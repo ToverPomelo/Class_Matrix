@@ -64,8 +64,6 @@ Matrix::Matrix(int row,int col)
 
 Matrix::Matrix(int row,int col,double *input_matrix)
 {
-    std::cout<<sizeof(&input_matrix)/sizeof(double)<<std::endl;
-
     if(row>0 && col >0)
     {
         m_row = row;
@@ -987,6 +985,7 @@ int main()
 
     double d[4] = {1,2,3,4};
     Matrix c(2,2,d);
+    cout<<"c:"<<endl;
     c.print();
 
 
