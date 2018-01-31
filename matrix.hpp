@@ -3,7 +3,7 @@
 
 class Matrix
 {
-    private: 
+    private:
         int m_row;                         //行数
         int m_col;                         //列数
         double **matrix_p;                 //二维数组，用来放矩阵
@@ -11,7 +11,7 @@ class Matrix
         //Matrix s_to_m(string psd_m);     //这个。。忘了是用来干什么的。。。
 
     public:
-        Matrix();      
+        Matrix();
         Matrix(int row,int col);            //指定行数和列数时初始化为0矩阵
         Matrix(int row,int col,double *input_matrix); //not safe?
         Matrix(string psd_matrix);          //以{{*,...,*},...,{*,...,*}}格式的字符串传递矩阵
@@ -36,7 +36,7 @@ class Matrix
         void to_augmented(const Matrix &other);    //变增广
         void to_invert();                   //变逆矩阵
 //lu factorization（LU分解）
-        Matrix get_u() const;               //得到U               
+        Matrix get_u() const;               //得到U
         Matrix get_e() const;               //得到E（L的逆）
         Matrix get_l() const;               //得到L
 //determinant（行列式）
@@ -50,7 +50,7 @@ class Matrix
 
         double* &operator[](int row);                //重载[]，让矩阵可以像二维数组那样用
         Matrix &operator=(const Matrix &other);      //重载复制
-        Matrix &operator+=(const Matrix &other);     
+        Matrix &operator+=(const Matrix &other);
         Matrix &operator-=(const Matrix &other);
         Matrix &operator*=(const Matrix &other);
         Matrix &operator*=(const double &num);       //这几个偷懒才这样写的啊

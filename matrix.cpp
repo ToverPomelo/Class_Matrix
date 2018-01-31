@@ -985,6 +985,10 @@ int main()
     cout<<"b:"<<b.trace()<<endl;
     b.print();
 
+    double d[4] = {1,2,3,4};
+    Matrix c(2,2,d);
+    c.print();
+
 
 
 
