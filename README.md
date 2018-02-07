@@ -6,5 +6,5 @@ ___
 &emsp;&emsp;PS：今天线性代数刚考完！
 
 ### 2018.2.5
-&emsp;&emsp;修复若干BUG </br>
-&emsp;&emsp;完成了[第一篇博文](http://blog.l-tover.xyz/2018/01/31/c-%E7%9F%A9%E9%98%B5%E7%B1%BB-%E5%88%9D%E9%98%B6-0/)
+&emsp;&emsp;修复若干BUG。 </br>
+&emsp;&emsp;完成了[第一篇博文](http://blog.l-tover.xyz/2018/01/31/c-%E7%9F%A9%E9%98%B5%E7%B1%BB-%E5%88%9D%E9%98%B6-0/)。
